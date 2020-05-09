@@ -277,4 +277,7 @@ p {
     line-height: 35px;
     color: rgb(255, 132, 0);
   }
+  main::before {
+    display: none;
+  }
 }
