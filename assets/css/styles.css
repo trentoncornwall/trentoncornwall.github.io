@@ -137,6 +137,7 @@ main::before {
 }
 main {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
