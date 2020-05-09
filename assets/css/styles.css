@@ -11,7 +11,7 @@ body {
 nav {
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -232,4 +232,49 @@ h5 {
 p {
   font-weight: 300;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    top: 17%;
+    font-size: 22px;
+  }
+  .intro {
+    font-size: 35px;
+    width: 300px;
+    top: 80%;
+  }
+  #prof {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.995);
+  }
+  .subIntro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Staatliches", cursive;
+    font-size: 27px;
+    position: absolute;
+    width: 100%;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin: 0px 0px 5px 0px;
+  }
+  #trenton {
+    letter-spacing: 4px;
+    line-height: 35px;
+    color: rgb(255, 66, 8);
+    z-index: 3;
+    margin-right: 10px;
+  }
+
+  #cornwall {
+    letter-spacing: 3px;
+    line-height: 35px;
+    color: rgb(255, 132, 0);
+  }
 }
