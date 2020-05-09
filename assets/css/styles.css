@@ -113,6 +113,12 @@ nav a:hover {
   filter: grayscale(80%);
 }
 
+#logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
 main::before {
   content: "";
   position: absolute;
