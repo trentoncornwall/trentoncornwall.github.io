@@ -152,7 +152,14 @@ main {
   margin-bottom: 20px;
   margin-left: 10px;
 }
-
+.aboutmain {
+  display: block;
+  height: 100%;
+  max-width: 1064px;
+  position: relative;
+  font-size: 18px;
+  width: 100%;
+}
 .resumebody {
   display: block;
   height: 100%;
