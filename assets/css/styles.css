@@ -281,3 +281,34 @@ p {
     display: none;
   }
 }
+
+@media only screen and (max-height: 940px) {
+  .subIntro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Staatliches", cursive;
+    font-size: 27px;
+    position: absolute;
+    width: 100%;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin: 0px 0px 5px 0px;
+  }
+  #trenton {
+    letter-spacing: 4px;
+    line-height: 35px;
+    color: rgb(255, 66, 8);
+    z-index: 3;
+    margin-right: 10px;
+  }
+
+  #cornwall {
+    letter-spacing: 3px;
+    line-height: 35px;
+    color: rgb(255, 132, 0);
+  }
+}
