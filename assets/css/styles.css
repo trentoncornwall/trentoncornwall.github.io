@@ -80,6 +80,7 @@ nav a:hover {
   line-height: 75px;
   color: rgb(255, 66, 8);
   z-index: 3;
+  padding: 15px;
 }
 
 #cornwall {
