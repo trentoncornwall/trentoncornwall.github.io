@@ -247,6 +247,8 @@ p {
 .project {
   padding-top: 25px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
 }
@@ -258,39 +260,45 @@ p {
 }
 
 .projectLinks {
-  padding: 15px 15px 15px 15px;
-  margin: 10px 5px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.link {
+  margin: 20px;
 }
 
+.img {
+  margin-bottom: 20px;
+}
 .projectLinks a:link {
   text-decoration: none;
-  color: rgb(255, 66, 8);
-  border: 1px solid black;
-  padding: 5px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
   border-radius: 5px;
 }
 
 .projectLinks a:visited {
   text-decoration: none;
-  color: rgb(255, 66, 8);
-  border: 1px solid black;
-  padding: 5px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
   border-radius: 5px;
 }
 
 .projectLinks a:hover {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  border: 1px solid black;
-  padding: 5px;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
   border-radius: 5px;
 }
 
 .projectLinks a:active {
   text-decoration: none;
-  color: rgb(255, 66, 8);
-  border: 1px solid black;
-  padding: 5px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
   border-radius: 5px;
 }
 @media only screen and (max-width: 600px) {
